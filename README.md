@@ -1,1 +1,1 @@
-Терентьев Данила Александрович Оно тебе надо
+https://github.com/SayNyaOrDie/ono-tebe-nado
