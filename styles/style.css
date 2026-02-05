@@ -108,15 +108,15 @@
   margin-top: 4px;
 }
 
-.letter-spacing-type-one {
+.letter-spacing-tight {
   letter-spacing: -0.24em;
 }
 
-.letter-spacing-type-two {
+.letter-spacing-wide {
   letter-spacing: 0.6em;
 }
 
-.letter-spacing-type-three {
+.letter-spacing-medium {
   letter-spacing: 0.3em;
 }
 
@@ -290,47 +290,6 @@
   margin-bottom: 24px;
   letter-spacing: 0.01em;
 }
-
-.about__text-letter-spacing-0 {
-  letter-spacing: 0;
-}
-
-.about__text-letter-spacing-0001 {
-  letter-spacing: 0.001em;
-}
-
-.about__text-letter-spacing-0006 {
-  letter-spacing: 0.006em;
-}
-
-.about__text-letter-spacing-00075 {
-  letter-spacing: 0.0075em;
-}
-
-.about__text-letter-spacing-0012 {
-  letter-spacing: 0.012em;
-}
-
-.about__text-letter-spacing-002 {
-  letter-spacing: 0.02em;
-}
-
-.about__text-letter-spacing-003 {
-  letter-spacing: 0.03em;
-}
-
-.about__text-letter-spacing-004 {
-  letter-spacing: 0.04em;
-}
-
-.about__text-letter-spacing-013 {
-  letter-spacing: 0.13em;
-}
-
-.about__text-letter-spacing-neg001 {
-  letter-spacing: -0.01em;
-}
-
 
 .footer {
   display: grid;

@@ -47,16 +47,16 @@
         <div class="cover__content">
           <h1 class="cover__title">
             <span class="aligned-text aligned-text_left">
-              <span class="letter-spacing-type-one">о</span>
-              <span class="letter-spacing-type-two">но</span>
+              <span class="letter-spacing-tight">о</span> <!-- пожалуйста, ознакомьтесь с комментарием в конце этого файла!-->
+              <span class="letter-spacing-wide">но</span>
             </span>
             <span class="aligned-text aligned-text_center">
-              <span class="letter-spacing-type-three">те</span
-                ><span class="letter-spacing-type-two">бе</span>
+              <span class="letter-spacing-medium">те</span
+                ><span class="letter-spacing-wide">бе</span>
             </span>
             <span class="aligned-text aligned-text_right">
-              <span class="letter-spacing-type-two">н</span
-              ><span class="letter-spacing-type-three">ад</span
+              <span class="letter-spacing-wide">н</span
+              ><span class="letter-spacing-medium">ад</span
               ><span class="no-letter-spacing">о</span>
             </span>
           </h1>
@@ -122,7 +122,7 @@
                   </h3>
                   <p class="card__text">
                     Ну действительно, там линия, тут кружочек, а здесь и вовсе 
-                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков<span class="about__text-letter-spacing-013">...</span> 
+                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
                     Сколько бы вы на такое поставили, если бы не знали, 
                     что это — одна из революционных работ Кандинского?
                   </p>
@@ -151,24 +151,23 @@
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное 
-              <span class="about__text-letter-spacing-0">пафосное собрание невероятно дорогого антиквариата.</span> 
-              <span class="about__text-letter-spacing-002">Наши</span> лоты вообще не должны <span class="about__text-letter-spacing-neg001">
-              были попасть</span> <span class="about__text-letter-spacing-0001">ни на один аукцион. Потому что кому нужен </span>
-              <span class="about__text-letter-spacing-003">дневник</span> 
-              <span class="about__text-letter-spacing-0001">девочки-подростка или картина, которую может </span>
-              <span class="about__text-letter-spacing-0012">нарисовать даже ребёнок? </span>
-              <span class="about__text-letter-spacing-0006">Кому нужны все эти странные вещи, созданные любителями?</span>
+              пафосное собрание невероятно дорогого антиквариата. 
+              Наши лоты вообще не должны 
+              были попасть ни на один аукцион. Потому что кому нужен 
+              дневник
+              девочки-подростка или картина, которую может 
+              нарисовать даже ребёнок? 
+              Кому нужны все эти странные вещи, созданные любителями?
             </p>
             <p>
               Слишком сложные или, наоборот, слишком простые. 
               Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. 
-              Когда-то <span class="about__text-letter-spacing-004">они</span> казались просто <span class="about__text-letter-spacing-0012">
-              неудачными.</span> <span class="about__text-letter-spacing-neg001">Но, несмотря</span><br> на критику, 
+              Когда-то они казались просто 
+              неудачными. Но, несмотря на критику, 
               кажущуюся простоту или сложность, 
               сейчас без этих лотов невозможно 
-              <span class="about__text-letter-spacing-00075">представить современную культуру. Когда в эти вещи не </span>
-              верил никто, продолжали верить их 
-              <span class="about__text-letter-spacing-00075">создатели. И сейчас эти лоты</span> стали культовыми. 
+              представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их 
+              создатели. И сейчас эти лоты стали культовыми. 
             </p>
           </div>
         </div>
@@ -177,8 +176,8 @@
 
     <footer class="footer">
       <address class="footer__address address">
-        <a class="address__link" href="tel:+99995555555"><span class="about__text-letter-spacing-00075">+9 999 555 5555</span></a><br />
-        <a class="address__link" href="mailto:info@sobaka.ge"><span class="about__text-letter-spacing-00075">info@sobaka.ge</span></a><br />
+        <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a><br />
+        <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
         <span class="address__text">наб. Принсенграхт 263-<br>265, Амстердам</span>
       </address>
 
@@ -228,3 +227,19 @@
     </footer>
   </body>
 </html>
+<!--
+ Здравствуйте, спасибо за ваше ревью! К сожалению я не знаю как с вами связаться другим способом, поэтому буду писать так.
+ Для начала, про расхождение с макетом и pixel  perfect. https://disk.yandex.ru/d/6-jv6qZMvZoIvQ ознакомьтесь с фотографиями, пожалуйста.
+ У меня все совпало с макетом в пределах погрешности, поэтому эта правка меня очень удивила. 
+ Код на гитхабе я перепроверил, он должен быть актуален.
+ Перепроверьте, пожалуйста, макет и расхождения с ним. 
+ 
+ Далее, про большое количество span-ов в коде в целом и в блоке about в частности. 
+ В макете на Figma отдельные слова и словосочетания выделены особым letter-spacing-ом: 
+ https://disk.yandex.ru/i/zM-Cf70FfZReMg (пример с первого параграфа)
+ Дабы избежать расхождений с макетом мне пришлось добавить span-ы, и в третьей карточке блоков lots в троеточии ситуация такая же.
+ В данной версии у меня отсутствуют span-ы, надеюсь вас это устроит.
+
+ Очень надеюсь, что внес ясность данными комментариями. Если вас не устроит актуальная версия, пожалуйста, скажите, что мне нужно делать дальше.
+ Спасибо!
+ -->
