@@ -67,7 +67,7 @@
 
 .cover {
   position: relative;
-  padding: 174px 24px 51px;
+  padding: 164px 24px 51px;
   background-image: url('../images/cover.jpg');
   background-size: cover;
   background-position: center;
@@ -92,10 +92,6 @@
 
 .aligned-text {
   display: block;
-}
-
-.aligned-text_left {
-  margin-top: -10px;
 }
 
 .aligned-text_center {
@@ -286,8 +282,12 @@
   letter-spacing: 0;
 }
 
-.about__text p:first-child {
+.about__text p {
   margin-bottom: 24px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
   letter-spacing: 0.01em;
 }
 
